@@ -6,11 +6,11 @@ Some os elementos pares da matriz e escreva o resultado na tela.
 #include<stdio.h>
 int main(){
 
-int matriz[3][3],i,j,soma_par=0;
+???????????????
 
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){      
-            printf("Elemento[%d][%d]= ",i,j);           
+          ??????????????????????????        
             scanf("%d",&matriz[i][j]);        
         }
     }               
@@ -19,7 +19,7 @@ int matriz[3][3],i,j,soma_par=0;
     printf("\n  Valores originais da matriz\n");     
     for(i=0;i<3;i++){         
         for(j=0;j<3;j++){           
-            printf("%d ",matriz[i][j]);         
+           ???????????????????       
             printf("\n");     
         }
     }     
@@ -34,7 +34,7 @@ int matriz[3][3],i,j,soma_par=0;
     } 
       
    /*Agora, vamos exibir os valores após a verificação */     
-   printf("\n A soma dos elementos par =%d \n",soma_par);
+ ???????????????????????
      
    return 0; 
 }
