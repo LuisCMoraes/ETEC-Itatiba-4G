@@ -9,16 +9,16 @@ int main() {
     int i, j, m[3][3];
        
     /*vamos digitar os elementos para que sejam salvos na memória*/    
-    for(i=0;i<3;i++)        
+   ???????????????????????       
         for(j=0;j<3;j++){
             printf("Elemento[%d][%d]= ",i,j);           
             scanf("%d",&m[i][j]);         
         } 
     
     /*O trecho abaixo, vai exibir os valores originais que digitamos*/  
-    printf("\n  Valores originais da matriz\n");     
+   ??????????????????????????????????   
     for(i=0;i<3;i++){         
-        for(j=0;j<3;j++){          
+      ????????????????         
             printf("%d ",m[i][j]);         
             printf("\n");
         }     
@@ -34,7 +34,7 @@ int main() {
     for(i=0;i<3;i++){         
         for(j=0;j<3;j++){
             printf("%d ",m[i][j]);         
-            printf("\n");
+         ????????????????????
         }     
     }       
     return 0; 
